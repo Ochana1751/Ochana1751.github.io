@@ -52,10 +52,6 @@ function checkAnswers()
         score++;
         feedback.push("Question 6 is Correct! ");
     }
-    if (document.quiz.a6.value === 'Marshmallow')
-    {
-        feedback.push("Good guess on question 6...but no incorrect. ")
-    }
     else
     {
         feedback.push("Question 6 is Incorrect! ");
