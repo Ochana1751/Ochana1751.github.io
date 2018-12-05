@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Projects</title>
+    <link rel="stylesheet" href="Mini%20Project.css">
+    <script src="Mini%20Projects.js"></script>
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="Family.html">Family</a>
+    <a href="Hobbies.html">My Interests</a>
+    <a class="active" href="Mini%20Projects.html">Mini Projects</a>
+    <a href="Small%20to%20Ten.html">Small To Ten</a>
+    <a href="Calculator.html">Calculator</a>
+    <a href="Madlibs.html">Madlibs</a>
+    <a href="Quiz.html">Quiz</a>
+</div>
+    <form name="project5">
+        <h4>Temperature</h4>
+        <br><br>
+        Type in what temperature it is (Fahrenheit) to see what season the weather it really belongs too
+        <input name="input1" type="number">
+        <br><br>
+        Result: <input name="result" type="text" readonly="true" style="border-style: none">
+        <button type="button" onclick="document.project5.result.value=TemperatureBug()">Temperate!</button>
+        <img id="weather" src="img/NA.jfif" height="250" width="250">
+    </form>
+<br><br>
+<form name="project3">
+    <h4>Assign Grade</h4>
+    <br><br>
+    Type in a percentage to see what grade you got
+    <input name="input1" type="number">
+    <br><br>
+    Result: <input name="result" type="text" readonly="true">
+    <button type="button" onclick="document.project3.result.value=assignGrade()">See Grade!</button>
+</form>
+<br><br>
+<form name="project6">
+    <h4>Calorie Counter</h4>
+    Type in for how long you did that activity in minutes.
+<input name="word1" type="text">
+    <br><br>
+    <br>
+    <select id="myList">
+    <option value="football">Football</option>
+    <option value="basketball">Basketball</option>
+    <option value="soccer">Soccer</option>
+    <option value="baseball">Baseball</option>
+    <option value="running">Running</option>
+    <option value="walking">Walking</option>
+</select>
+    <br><br>
+    <br><br>
+    Result: <input name="result" type="text" readonly="true">
+    <button type="button" onclick="document.project6.result.value=CalorieCounter()">View Calories Lost</button>
+</form>
+
+</body>
+</html>

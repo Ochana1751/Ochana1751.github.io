@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Small To Ten</title>
+    <link rel="stylesheet" href="Small%20To%20Ten.css">
+    <script src="SmallToTen.js"></script>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="Family.html">Family</a>
+        <a href="Hobbies.html">My Interests</a>
+        <a href="Mini%20Projects.html">Mini Projects</a>
+        <a class="active" href="Small%20to%20Ten.html">Small To Ten</a>
+        <a href="Calculator.html">Calculator</a>
+        <a href="Madlibs.html">Madlibs</a>
+        <a href="Quiz.html">Quiz</a>
+    </div>
+    <h1><mark>Base 10 to Base 2</mark></h1>
+    <br>
+    <br>
+    <form name="toBinary">
+        Type a number in base 10 to convert:<input name="num1" type="text" id="input1">
+        <br>
+        <br>
+        That number in Base 2:<input name="result" id="result" readonly="true">
+        <button type="button" onclick="document.toBinary.result.value=tenToSmall()">toBINARY</button> <img src="img/Binarypic.png" height="350" width="600"/></head>
+       <br>
+    </form>
+    <br>
+    <br>
+    <br>
+    <h1><mark>Base 2 to Base 10</mark></h1>
+    <form name="Binaryto">
+        Type a number in Base 2:<input name="num2" type="text" id="input2">
+        <br>
+        <br>
+        That number in Base 10:<input name="result" id="result" readonly="true">
+        <button type="button" onclick="document.Binaryto.result.value=smallToTen()">BinaryTO</button>
+    </form>
+</head>
+<body>
+
+</body>
+</html>
